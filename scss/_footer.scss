@@ -1,0 +1,37 @@
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    div ul li {
+        display: inline-block;
+    }
+
+    ul li a svg {
+        margin: 1rem;
+    }
+
+    a {
+        color: rgb(245, 245, 245);
+    }
+
+    ul li a svg:hover {
+        transform: scale(1.4);
+    }
+
+    .ig:hover {
+        color: darkviolet;
+    }
+    
+    .wp:hover {
+        color: rgb(101, 199, 101);
+    }
+    
+    .fb:hover {
+        color: rgb(75, 75, 227);
+    }
+}
+

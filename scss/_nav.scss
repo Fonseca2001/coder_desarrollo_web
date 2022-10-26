@@ -1,0 +1,15 @@
+/* NAV-BAR */
+
+.nav-item {
+    font-family: Georgia, 'Times New Roman', Times, cursive;
+}
+
+.nav-item:hover {
+    border: solid;
+    border-color: rgb(161, 161, 161);
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+body {
+    background-image: url("../imagenes/backgraund.jpg");
+    background-attachment: fixed;
+    margin: 24px;
+
+    header h1 {
+        text-align: center;
+        margin: 60px auto;
+        font-size: 40px;
+        font-weight: 400;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;
+    }
+}
+
+@import "nav";
+
+@import "inicio";
+
+@import "acercademi";
+
+@import "pinturas";
+
+@import "eventos";
+
+@import "contacto";
+
+@import "footer";
+

@@ -1,0 +1,51 @@
+/* ACERCA DE MI */
+
+.grid-adm {
+    display: grid;
+    grid-template-columns: 30px 35px 30px(3);
+    grid-template-rows: 20px 50px 20px(2);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    margin-bottom: 5px;
+
+    .div1 { grid-area: 1 / 1 / 2 / 4;
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px;
+        font-size: 50px;}
+    .div2 { grid-area: 2 / 1 / 3 / 4;
+        border-style: solid;
+        border-radius: 10px;
+        font-size: large;
+        background-color: #b1a07be6;
+        box-shadow: 0 0 20px #333; 
+        
+        /* TEXTO */
+        .text_p {
+            text-align: center;
+            color: whitesmoke;
+            font-weight: 300;
+            margin-top: 10px;}
+        }
+    .div3 { grid-area: 3 / 1 / 4 / 2;
+        display: flex;
+        justify-content: start; }
+    .div4 { grid-area: 3 / 2 / 4 / 4;
+        display: flex;
+        justify-content: center; }
+    .div5 { grid-area: 4 / 1 / 5 / 3;
+        display: flex;
+        justify-content: center; }
+    .div6 { grid-area: 4 / 3 / 5 / 4;
+        display: flex;
+        justify-content: end; }
+    
+        .grid__img {
+            width: 80%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+}

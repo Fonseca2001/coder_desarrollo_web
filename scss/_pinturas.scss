@@ -1,0 +1,60 @@
+/* PINTURAS */
+
+.wall-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    transition: all 200ms;
+    margin: 0 0 24px 0;
+    padding: 12px;
+
+    img {
+        display: flex;  
+        width: 25%;
+        margin: 0 0 24px 0;
+    }
+
+    h2 {
+        text-align: center;
+        color: #b1a07be6;;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .text_p {
+        color: whitesmoke;
+    }
+
+    .wall-column {
+        display: block;
+        position: relative;
+        width: 33.3333%;
+        float: left;
+        padding: 0 12px;
+        box-sizing: border-box;
+    } 
+}
+
+.wall-item:hover {
+    transform: translateY(-5px);
+    transition: all 100ms;
+}
+
+/* MEDIA QUERIES-PINTURAS */
+@media (max-width: 640px) {
+    .wall-column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px){
+    .wall-column {
+        width: auto;
+        float: none;
+    }
+}

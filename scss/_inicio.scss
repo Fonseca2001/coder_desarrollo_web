@@ -1,0 +1,109 @@
+/* INICIO */
+
+.conteiner-inicio {
+    background-color: #b1a07be6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #333;
+
+    .conteiner_titulo {
+        display: flex;
+        justify-content: center;
+    
+        color: whitesmoke;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .conteiner__texto {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* DISEÑO-INICIO */
+
+.gallery {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 133px);
+    grid-auto-rows: 200px;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 200px;
+
+    .gallery_item {
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        grid-column: span 2;
+        height: 283px;
+        transition: 0.5s filter;
+
+        .gallery_item:first-of-type {
+            grid-column: 2 / span 2;
+        }
+
+        .gallery__photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .gallery_item:hover {
+        filter: brightness(0.3);
+    }
+}
+
+/* MEDIA QUERIES-INICIO */
+
+@media screen and (min-width: 270px) and (max-width: 504px) {
+    .gallery_item:first-of-type {
+        grid-column: 1 / span 2;
+    }
+    .gallery {
+        grid-auto-rows: 283px;
+    }
+}
+
+@media screen and (min-width: 505px) and (max-width: 685px) {
+    .gallery_item:nth-of-type(odd) {
+            grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 686px) and (max-width: 862px) {
+    .gallery_item:nth-of-type(3n + 1) {
+            grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 863px) and (max-width: 1038px) {
+    .gallery_item:nth-of-type(4n + 1) {
+            grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 1039px) and (max-width: 1215px) {
+    .gallery_item:nth-of-type(5n + 1) {
+            grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1391px) {
+    .gallery_item:nth-of-type(6n + 1) {
+            grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .gallery_item:nth-of-type(7n + 1) {
+            grid-column: 2 / span 2;
+    }
+}
