@@ -1,0 +1,5 @@
+@mixin box ($bstyle, $bradius, $bshadow) {
+    border-style: $bstyle;
+    border-radius: $bradius;
+    box-shadow: $bshadow;
+}

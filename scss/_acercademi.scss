@@ -1,5 +1,7 @@
 /* ACERCA DE MI */
 
+@import "variables";
+
 .grid-adm {
     display: grid;
     grid-template-columns: 30px 35px 30px(3);
@@ -13,22 +15,22 @@
         display: flex;
         justify-content: center;
         font-weight: 400;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $font;
         margin: 20px;
         font-size: 50px;}
     .div2 { grid-area: 2 / 1 / 3 / 4;
-        border-style: solid;
-        border-radius: 10px;
+        border-style: $border-style;
+        border-radius: $primary;
         font-size: large;
-        background-color: #b1a07be6;
-        box-shadow: 0 0 20px #333; 
+        background-color: $marron;
+        box-shadow: 0 0 20px $shadow; 
         
         /* TEXTO */
         .text_p {
             text-align: center;
-            color: whitesmoke;
+            color: $blanco;
             font-weight: 300;
-            margin-top: 10px;}
+            margin-top: $primary;}
         }
     .div3 { grid-area: 3 / 1 / 4 / 2;
         display: flex;
@@ -46,6 +48,6 @@
         .grid__img {
             width: 80%;
             object-fit: contain;
-            border-radius: 10px;
+            border-radius: $primary;
         }
 }

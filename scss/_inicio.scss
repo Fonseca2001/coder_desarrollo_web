@@ -1,20 +1,21 @@
 /* INICIO */
 
+@import "variables";
+
 .conteiner-inicio {
-    background-color: #b1a07be6;
-    border-radius: 10px;
-    padding: 10px;
+    background-color: $marron;
+    border-radius: $primary;
+    padding: $primary;
     margin: 20px;
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: 0 0 20px #333;
+
+    @include box {$border-style, $primary, 0 0 20px $shadow}
 
     .conteiner_titulo {
         display: flex;
         justify-content: center;
     
-        color: whitesmoke;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: $blanco;
+        font-family: $font;
     }
 
     .conteiner__texto {

@@ -8,16 +8,16 @@ body {
     margin: 60px auto;
     font-size: 40px;
     font-weight: 400;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     text-decoration: underline; }
 
 /* NAV-BAR */
 .nav-item {
-  font-family: Georgia, 'Times New Roman', Times, cursive; }
+  font-family: Georgia, "Times New Roman", Times, serif; }
 
 .nav-item:hover {
   border: solid;
-  border-color: #a1a1a1; }
+  border-color: #b1a07be6; }
 
 .navbar-collapse {
   display: flex;
@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
+    font-family: Georgia, "Times New Roman", Times, serif; }
   .conteiner-inicio .conteiner__texto {
     display: flex;
     justify-content: center; }
@@ -112,7 +112,7 @@ body {
     display: flex;
     justify-content: center;
     font-weight: 400;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     margin: 20px;
     font-size: 50px; }
   .grid-adm .div2 {
@@ -167,7 +167,7 @@ body {
     text-align: center;
     color: #b1a07be6;
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     text-transform: uppercase;
     margin-bottom: 0;
     padding-bottom: 0; }
@@ -212,7 +212,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 1.0em; }
   .container-table .table__header {
@@ -238,22 +238,24 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #b1a07be6;
+  border-style: solid;
+  border-radius: 10px;
   box-shadow: 0 0 20px #333;
-  color: white;
-  border: 2px solid #5b5a5a;
-  border-radius: 80px;
   font-size: 20px;
   margin: 50px; }
   .contacto .item__contacto {
-    padding: 10px; }
+    padding: 10px;
+    color: whitesmoke;
+    font-family: Georgia, "Times New Roman", Times, serif; }
   .contacto .contacto__parrafo {
-    padding: 15px; }
+    padding: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif; }
 
 /* MEDIA QUERIES-CONTACTO */
 @media screen and (max-width: 769px) {
   .contacto {
     background-color: #b1a07be6;
-    color: white;
+    color: whitesmoke;
     width: auto;
     height: auto;
     padding: 0px 1rem 1rem 1rem;
@@ -268,20 +270,20 @@ body {
     position: static;
     box-shadow: 0 0 20px #333; }
     .contacto .contacto__titulo {
-      color: white;
+      color: whitesmoke;
       text-align: center;
       font-style: normal;
       font-weight: bold;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Georgia, "Times New Roman", Times, serif;
       font-size: 35px;
       margin-bottom: 36px;
       text-transform: uppercase; }
     .contacto .contacto__subtitulo {
-      color: white;
+      color: whitesmoke;
       text-align: justify;
       font-style: normal;
       font-weight: bold;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Georgia, "Times New Roman", Times, serif;
       padding: 16px 0px 0px 0px;
       font-size: 20px;
       margin-bottom: 20px; }
@@ -291,7 +293,7 @@ body {
       color: white;
       font-style: normal;
       font-weight: normal;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; } }
+      font-family: Georgia, "Times New Roman", Times, serif; } }
 
 /* FOOTER */
 footer {

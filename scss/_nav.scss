@@ -1,12 +1,14 @@
 /* NAV-BAR */
 
+@import "variables";
+
 .nav-item {
-    font-family: Georgia, 'Times New Roman', Times, cursive;
+    font-family: $font;
 }
 
 .nav-item:hover {
     border: solid;
-    border-color: rgb(161, 161, 161);
+    border-color: $marron;
 }
 
 .navbar-collapse {

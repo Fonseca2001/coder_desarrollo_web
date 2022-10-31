@@ -1,10 +1,12 @@
 /* TABLA EVENTOS */
 
+@import "variables";
+
 .container-table {
     width: 90%;
-    background: whitesmoke;
+    background: $blanco;
     margin: 50px auto;
-    box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px $shadow;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -15,11 +17,11 @@
         grid-column-end: 5;
     
         background: rgb(30, 30, 30);
-        color: #b1a07be6;
+        color: $marron;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $font;
         font-weight: bold;
         font-size: 1.0em;
     }
@@ -38,7 +40,7 @@
         justify-content: center;
         align-items: center;
     
-        padding: 10px;
+        padding: $primary;
         font-size: 1.0em;
     
         .ubi:hover {
