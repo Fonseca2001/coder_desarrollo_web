@@ -12,6 +12,10 @@ body {
     text-decoration: underline; }
 
 /* NAV-BAR */
+.navbar-toggler {
+  background-color: whitesmoke;
+  color: whitesmoke; }
+
 .nav-item {
   font-family: Georgia, "Times New Roman", Times, serif; }
 
@@ -28,10 +32,9 @@ body {
   background-color: #b1a07be6;
   border-radius: 10px;
   padding: 10px;
-  margin: 20px;
   border-style: solid;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #333; }
+  box-shadow: 0 0 20px #333;
+  margin: 20px; }
   .conteiner-inicio .conteiner_titulo {
     display: flex;
     justify-content: center;

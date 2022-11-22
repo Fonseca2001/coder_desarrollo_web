@@ -6,9 +6,9 @@
     background-color: $marron;
     border-radius: $primary;
     padding: $primary;
+    border-style: $border-style;
+    box-shadow: 0 0 20px $shadow;
     margin: 20px;
-
-    @include box {$border-style, $primary, 0 0 20px $shadow}
 
     .conteiner_titulo {
         display: flex;

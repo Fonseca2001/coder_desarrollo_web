@@ -2,6 +2,11 @@
 
 @import "variables";
 
+.navbar-toggler {
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+
 .nav-item {
     font-family: $font;
 }
@@ -15,3 +20,5 @@
     display: flex;
     justify-content: flex-end;
 }
+
+
